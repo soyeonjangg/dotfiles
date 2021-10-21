@@ -1,2 +1,2 @@
 # dotfiles
-config
+inspired by @jamesnicolas
