@@ -9,8 +9,10 @@ vim ~/.vimrc
 ```
 
 In order to install vim plugins for the first time, need to install vundle. refer to: https://github.com/VundleVim/Vundle.vim
+
 Once installed, run 
 ```
 :source %
 :PluginInstall
-``` in ~/.vimrc
+``` 
+in ~/.vimrc
