@@ -1,0 +1,8 @@
+# Soyeon To-Do List
+assignee in (<JIRA_ID>) AND status not in ("Done", "Won't Do") AND issuetype not in ("Epic", "Project")
+
+# Soyeon's Mission Accomplished
+project = "<PROJCET_ID>" AND status = "Done" AND assignee = currentUser() ORDER BY created DESC
+
+# To have all relevant issues
+issuekey in portfolioChildIssuesOf("<Parent Issue/Epic Link/Delivery Milestones>")
