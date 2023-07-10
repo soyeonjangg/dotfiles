@@ -8,6 +8,12 @@ vim ~/.tmux.conf
 vim ~/.vimrc
 ```
 
+In order to reload tmux config changes,
+```
+ctrl + b, :
+:source-file ~/.tmux.conf
+```
+
 In order to install vim plugins for the first time, need to install vundle. refer to: https://github.com/VundleVim/Vundle.vim
 
 Once installed, run 
