@@ -22,3 +22,5 @@ Once installed, run
 :PluginInstall
 ``` 
 in ~/.vimrc
+
+to apply changes in ~/.bashrc run: `source ~/.bashrc`
