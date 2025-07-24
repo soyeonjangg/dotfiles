@@ -1,5 +1,5 @@
-format = "$directory$git_branch$git_status"
-right_format = "$status$cmd_duration$battery$time$os$username$hostname"
+format = "$directory$git_branch$git_status "
+right_format = "$status$cmd_duration$battery$time$os$username$hostname "
 add_newline = false
 
 [line_break]
@@ -32,25 +32,24 @@ read_only = "RO "
 read_only_style = "fg:red"
 
 [directory.substitutions]
-Desktop = "Desk"
-Documents = "Docs"
-Downloads = "Dls"
-Music = "Music"
-Pictures = "Pics"
-Videos = "Vids"
-dev = "Dev"
+Desktop = "desk"
+Documents = "docs"
+Downloads = "dls"
+Music = "music"
+Pictures = "pics"
+Videos = "vids"
 config = "Cfg"
 
 [git_branch]
 symbol = ""
-format = "[ branch: $branch](fg:green)"
+format = "[ branch: $branch ](fg:green)"
 only_attached = false
 
 [git_commit]
 tag_symbol = " tag:"
 
 [git_status]
-format = "[ git: $all_status](fg:yellow)"
+format = "[ git: $all_status ](fg:yellow)"
 conflicted = "conflicted($count) "
 untracked = "untracked($count) "
 stashed = "stash($count) "
