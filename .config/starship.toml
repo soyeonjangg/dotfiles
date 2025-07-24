@@ -1,4 +1,4 @@
-format = "$directory$git_branch$git_status "
+format = "$directory$git_branch"
 right_format = "$status$cmd_duration$battery$time$os$username$hostname "
 add_newline = false
 
@@ -48,41 +48,4 @@ only_attached = false
 [git_commit]
 tag_symbol = " tag:"
 
-[git_status]
-format = "[ git: $all_status ](fg:yellow)"
-conflicted = "conflicted($count) "
-untracked = "untracked($count) "
-stashed = "stash($count) "
-modified = "mod($count) "
-staged = "staged($count) "
-renamed = "renamed($count) "
-deleted = "deleted($count) "
-ahead = "↑$count "
-diverged = "⇡$ahead_count⇣$behind_count "
-behind = "↓$count "
-
-[battery]
-format = "[battery: $percentage](fg:yellow)"
-display = [
-  { threshold = 25, style = "bold yellow" },
-  { threshold = 10, style = "bold red" }
-]
-
-[cmd_duration]
-min_time = 500
-format = "[took: $duration](fg:cyan)"
-
-[time]
-format = "[time: $time](fg:magenta)"
-time_format = "%I:%M %p"
-disabled = false
-
-[username]
-format = "[user: $user](fg:white)"
-show_always = true
-
-[hostname]
-format = "[host: $hostname](fg:white)"
-ssh_symbol = "(ssh)"
-ssh_only = false
 
