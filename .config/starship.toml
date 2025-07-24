@@ -38,7 +38,7 @@ Downloads = "dls"
 Music = "music"
 Pictures = "pics"
 Videos = "vids"
-config = "Cfg"
+config = "cfg"
 
 [git_branch]
 symbol = ""
